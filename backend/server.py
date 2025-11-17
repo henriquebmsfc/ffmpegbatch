@@ -6,7 +6,7 @@ from batch import run_batch
 
 app = FastAPI()
 
-BASE = Path(__file__).resolve().parent.parent
+BASE = Path("/workspace/ffmpegbatch")
 INPUT = BASE / "data" / "input"
 OUTPUT = BASE / "data" / "output"
 
